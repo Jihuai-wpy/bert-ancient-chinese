@@ -4,7 +4,7 @@
 
 当下人工智能和数字人文浪潮风靡全球，现代汉语自动分析已取得很大成果。而古代汉语的自动分析研究相对薄弱，难以满足国学、史学、文献学、汉语史的研究和国学、传统文化教育的实际需求。古汉语存在字词、词语、词类的诸多争议，资源建设困难重重。数字人文研究需要大规模语料库和高性能古文自然语言处理工具支持。鉴于预训练语言模型已经在英语和现代汉语文本上极大的提升了文本挖掘的精度，目前亟需专门面向古文自动处理领域的预训练模型。
 
-2021年产生了两个较为高效的面向古文智能处理任务的预训练模型[`SikuBERT`和`SikuRoBERTa`](https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing)，并被第一个古汉语领域NLP工具评估比赛——**[EvaHan 2022](https://circse.github.io/LT4HALA/2022/EvaHan)**作为封闭环境下的预训练模型。**`bert-ancient-chinese`**是我们为了进一步优化开放环境下模型效果得到的。
+2021年产生了两个较为高效的面向古文智能处理任务的预训练模型[`SikuBERT`和`SikuRoBERTa`](https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing)，并被第一个古汉语领域NLP工具评估比赛——**[EvaHan 2022](https://circse.github.io/LT4HALA/2022/EvaHan)** 作为封闭环境下的预训练模型。**`bert-ancient-chinese`** 是我们为了进一步优化开放环境下模型效果得到的。
 
 ## 预训练
 
@@ -37,7 +37,7 @@ model = AutoModel.from_pretrained("Jihuai/bert-ancient-chinese")
 
 通过Huggingface官网直接下载，目前官网的模型已同步更新至最新版本:
 
-- **bert-ancient-chinese:[Jihuai/bert-ancient-chinese · Hugging Face](https://huggingface.co/Jihuai/bert-ancient-chinese) **
+- **bert-ancient-chinese:[Jihuai/bert-ancient-chinese · Hugging Face](https://huggingface.co/Jihuai/bert-ancient-chinese)**
 
 ### 云盘
 
@@ -152,7 +152,7 @@ The model we provide is the `PyTorch` version.
 
 Download directly through Huggingface's official website, and the model on the official website has been updated to the latest version simultaneously:
 
-- **bert-ancient-chinese:[Jihuai/bert-ancient-chinese · Hugging Face](https://huggingface.co/Jihuai/bert-ancient-chinese) **
+- **bert-ancient-chinese:[Jihuai/bert-ancient-chinese · Hugging Face](https://huggingface.co/Jihuai/bert-ancient-chinese)**
 
 ### From Cloud Disk
 
@@ -212,7 +212,7 @@ If our content is helpful for your research work, please quote it in the paper.
 
 ## Disclaim
 
-The experimental results presented in the report only show the performance under a specific data set and hyperparameter combination, and cannot represent the essence of each model. The experimental results may change due to random number seeds and computing equipment. **Users can use the model arbitrarily within the scope of the license, but we are not responsible for the direct or indirect losses caused by using the content of the project. **
+The experimental results presented in the report only show the performance under a specific data set and hyperparameter combination, and cannot represent the essence of each model. The experimental results may change due to random number seeds and computing equipment. **Users can use the model arbitrarily within the scope of the license, but we are not responsible for the direct or indirect losses caused by using the content of the project.**
 
 ## Acknowledgment
 
