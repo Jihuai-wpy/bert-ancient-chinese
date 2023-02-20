@@ -49,7 +49,7 @@ model = AutoModel.from_pretrained("Jihuai/bert-ancient-chinese")
 
 通过Huggingface官网直接下载，目前官网的模型已同步更新至最新版本:
 
-- **bert-ancient-chinese:[Jihuai/bert-ancient-chinese · Hugging Face](https://huggingface.co/Jihuai/bert-ancient-chinese)**
+- **bert-ancient-chinese: [Jihuai/bert-ancient-chinese · Hugging Face](https://huggingface.co/Jihuai/bert-ancient-chinese)**
 
 ### 云盘
 
