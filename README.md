@@ -6,6 +6,18 @@
 
 2021年产生了两个较为高效的面向古文智能处理任务的预训练模型[`SikuBERT`和`SikuRoBERTa`](https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing)，并被第一个古汉语领域NLP工具评估比赛——**[EvaHan 2022](https://circse.github.io/LT4HALA/2022/EvaHan)** 作为封闭环境下的预训练模型。**`bert-ancient-chinese`** 是我们为了进一步优化开放环境下模型效果得到的。
 
+如果要引用我们的工作，您可以引用这篇[论文](https://aclanthology.org/2022.lt4hala-1.25/)：
+
+```
+@inproceedings{wang2022uncertainty,
+  title={The Uncertainty-based Retrieval Framework for Ancient Chinese CWS and POS},
+  author={Wang, Pengyu and Ren, Zhichen},
+  booktitle={Proceedings of the Second Workshop on Language Technologies for Historical and Ancient Languages},
+  pages={164--168},
+  year={2022}
+}
+```
+
 ## 预训练
 
 **相比于之前的预训练模型，`bert-ancient-chinese`主要有以下特点：**
@@ -120,6 +132,18 @@ Pengyu Wang：wpyjihuai@gmail.com
 With the current wave of Artificial Intelligence and Digital Humanities sweeping the world, the automatic analysis of modern Chinese has achieved great results. However, the automatic analysis and research of ancient Chinese is relatively weak, and it is difficult to meet the actual needs of Sinology, history, philology, Chinese history and the education of Sinology and traditional culture. There are many controversies about characters, words and parts of speech in ancient Chinese, and there are many difficulties in resource construction. Digital Humanities research requires large-scale corpora and high-performance ancient natural language processing tools. In view of the fact that pre-trained language models have greatly improved the accuracy of text mining in English and modern Chinese texts, there is an urgent need for pre-trained models for the automatic processing of ancient texts.
 
 In 2021, two efficient pre-trained models for ancient Chinese intelligent processing tasks, [`SikuBERT` and `SikuRoBERTa`](https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing), were produced and selected as pretrained models in closed environment by **[EvaHan 2022](https://circse.github.io/LT4HALA/2022/EvaHan)**, the first NLP tool evaluation competition in the field of ancient Chinese. We trained **`bert-ancient-chinese`** to  further optimize the model effect in open environment. 
+
+If you want to refer to our work, you can refer to this [paper](https://aclanthology.org/2022.lt4hala-1.25/)：
+
+```
+@inproceedings{wang2022uncertainty,
+  title={The Uncertainty-based Retrieval Framework for Ancient Chinese CWS and POS},
+  author={Wang, Pengyu and Ren, Zhichen},
+  booktitle={Proceedings of the Second Workshop on Language Technologies for Historical and Ancient Languages},
+  pages={164--168},
+  year={2022}
+}
+```
 
 ## Further Pre-training
 
